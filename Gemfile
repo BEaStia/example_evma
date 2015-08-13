@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'eventmachine'
+gem 'em-http-request'
+gem 'em-socksify'
+gem 'redis'
+gem 'thin'
+gem 'async_sinatra'
+gem 'cramp'
+gem 'http_router'
+#gem 'rack-async'
