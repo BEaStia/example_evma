@@ -1,0 +1,457 @@
+2015/08/14 11:17:14 [emerg] 6936#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/08/14 11:17:14 [emerg] 6936#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/08/14 11:17:14 [emerg] 6936#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/08/14 11:17:14 [emerg] 6936#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/08/14 11:17:14 [emerg] 6936#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/08/14 11:17:14 [emerg] 6936#0: still could not bind()
+[ 2015-08-14 11:17:28.3251 7055/7f492a59b740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:17:28.3277 7058/7f70de4d4740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:17:28.3277 7058/7f70de4d4740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:17:28.3288 7058/7f70de4d4740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 7058
+[ 2015-08-14 11:17:28.3325 7064/7f62e6a12740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:17:28.3327 7064/7f62e6a12740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 7064
+App 7112 stdout: 
+App 7133 stdout: 
+App 7133 stdout: "pong"
+App 7112 stderr: 2015-08-14 11:17:31 - UncaughtThrowError - uncaught throw :async:
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `throw'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `async_response'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:76:in `block in aroute'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `block in compile!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/nulllogger.rb:9:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+App 7112 stderr: 
+App 7112 stderr: 2015-08-14 11:18:03 - UncaughtThrowError - uncaught throw :async:
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `throw'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `async_response'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:76:in `block in aroute'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `block in compile!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/nulllogger.rb:9:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 7112 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+App 7112 stderr: 
+
+[ 2015-08-14 11:18:15.5808 7058/7f70d7fff700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:18:15.5808 7058/7f70de4d4740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:18:15.5808 7058/7f70de4d4740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7133, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:18:15.5809 7058/7f70d77fe700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:18:15.5809 7058/7f70d77fe700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:18:15.5810 7058/7f70d6ffd700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:18:15.5810 7058/7f70d6ffd700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:18:15.5811 7058/7f70d67fc700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:18:15.5811 7058/7f70d67fc700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:18:15.5812 7058/7f70d5ffb700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:18:15.5812 7058/7f70d7fff700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:18:15.5812 7058/7f70d5ffb700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:18:15.5812 7058/7f70d7fff700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+
+[ 2015-08-14 11:18:15.5812 7064/7f62e4baa700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:18:15.5812 7058/7f70de4d4740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7133, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:18:15.5813 7064/7f62e6a12740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:18:15.5813 7064/7f62e4baa700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:18:15.5813 7064/7f62e4baa700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:18:15.5816 7064/7f62e6a12740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:18:15.6928 7058/7f70de4d4740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-08-14 11:19:32.9557 7781/7f1b3dc28740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:19:32.9583 7784/7f9b04c56740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:19:32.9584 7784/7f9b04c56740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:19:32.9596 7784/7f9b04c56740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 7784
+[ 2015-08-14 11:19:32.9632 7792/7fcee5fae740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:19:32.9635 7792/7fcee5fae740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 7792
+App 7837 stdout: 
+App 7869 stdout: 
+App 7869 stdout: "pong"
+App 7837 stderr: 2015-08-14 11:19:35 - UncaughtThrowError - uncaught throw :async:
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `throw'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `async_response'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:76:in `block in aroute'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `block in compile!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/nulllogger.rb:9:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 7837 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+[ 2015-08-14 11:19:50.8500 7784/7f9b02c0f700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2015-08-14 11:19:50.8500 7784/7f9b04c56740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:19:50.8500 7792/7fcedffff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:19:50.8500 7784/7f9b04c56740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7869, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:19:50.8500 7792/7fcee5fae740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:19:50.8501 7784/7f9b01b0b700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:19:50.8502 7784/7f9b01b0b700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:19:50.8502 7792/7fcedffff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:19:50.8502 7792/7fcedffff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:19:50.8502 7784/7f9b0238d700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:19:50.8502 7784/7f9b0238d700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:19:50.8503 7784/7f9b01289700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:19:50.8503 7784/7f9b01289700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:19:50.8504 7784/7f9b00a07700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:19:50.8504 7784/7f9b00a07700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:19:50.8505 7792/7fcee5fae740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:19:50.8543 7784/7f9b02c0f700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:19:50.8544 7784/7f9b02c0f700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-14 11:19:50.8545 7784/7f9b04c56740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7869, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:19:50.9660 7784/7f9b04c56740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-08-14 11:21:10.2998 8315/7fdd9c79a740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:21:10.3025 8318/7f3e5eb34740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:21:10.3026 8318/7f3e5eb34740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:21:10.3037 8318/7f3e5eb34740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8318
+[ 2015-08-14 11:21:10.3074 8324/7f3bfd638740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:21:10.3077 8324/7f3bfd638740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8324
+App 8370 stdout: 
+App 8390 stdout: 
+App 8370 stderr: 2015-08-14 11:21:13 - UncaughtThrowError - uncaught throw :async:
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `throw'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `async_response'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:76:in `block in aroute'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `block in compile!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/nulllogger.rb:9:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 8370 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+[ 2015-08-14 11:21:21.2494 8318/7f3e5caed700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:21:21.2495 8318/7f3e5eb34740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:21:21.2495 8318/7f3e5eb34740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8390, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:21:21.2496 8318/7f3e5caed700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:21:21.2496 8318/7f3e5caed700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+
+[ 2015-08-14 11:21:21.2496 8324/7f3bfb7d0700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:21:21.2496 8318/7f3e47fff700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:21:21.2497 8318/7f3e47fff700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:21:21.2497 8324/7f3bfd638740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:21:21.2497 8324/7f3bfb7d0700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:21:21.2497 8324/7f3bfb7d0700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:21:21.2497 8318/7f3e477fe700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:21:21.2497 8318/7f3e477fe700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:21:21.2498 8318/7f3e46ffd700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:21:21.2498 8318/7f3e46ffd700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:21:21.2498 8318/7f3e467fc700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:21:21.2498 8318/7f3e467fc700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:21:21.2499 8324/7f3bfd638740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:21:21.2499 8318/7f3e5eb34740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8390, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:21:21.3615 8318/7f3e5eb34740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-08-14 11:21:46.1515 8563/7faef1e78740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:21:46.1541 8566/7fcadc55e740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:21:46.1542 8566/7fcadc55e740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:21:46.1555 8566/7fcadc55e740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8566
+[ 2015-08-14 11:21:46.1591 8573/7f7592284740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:21:46.1594 8573/7f7592284740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8573
+App 8615 stdout: 
+App 8634 stdout: 
+App 8615 stderr: 2015-08-14 11:21:48 - UncaughtThrowError - uncaught throw :async:
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `throw'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:144:in `async_response'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/async_sinatra-1.2.0/lib/sinatra/async.rb:76:in `block in aroute'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1609:in `block in compile!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/nulllogger.rb:9:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 8615 stderr: 	/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+[ 2015-08-14 11:22:53.8329 8566/7fcada517700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:22:53.8330 8566/7fcadc55e740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:22:53.8330 8566/7fcadc55e740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8634, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:22:53.8331 8566/7fcad9c95700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:22:53.8331 8566/7fcad8b91700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:22:53.8331 8566/7fcad9c95700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:22:53.8331 8566/7fcad8b91700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:22:53.8332 8566/7fcad3fff700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:22:53.8332 8566/7fcad3fff700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:22:53.8332 8566/7fcada517700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:22:53.8332 8566/7fcada517700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-14 11:22:53.8343 8566/7fcad9413700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:22:53.8344 8566/7fcad9413700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:22:53.8344 8566/7fcadc55e740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8634, application /var/www/example_evma/public (development)
+
+[ 2015-08-14 11:22:53.8384 8573/7f758bfff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:22:53.8384 8573/7f7592284740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:22:53.8385 8573/7f758bfff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:22:53.8385 8573/7f758bfff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:22:53.8389 8573/7f7592284740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:22:53.9459 8566/7fcadc55e740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-08-14 11:23:17.8592 9115/7f65cdc31740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:23:17.8618 9118/7f514fbfd740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:23:17.8619 9118/7f514fbfd740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:23:17.8629 9118/7f514fbfd740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 9118
+[ 2015-08-14 11:23:17.8666 9125/7fa91a994740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:23:17.8668 9125/7fa91a994740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 9125
+App 9168 stdout: 
+App 9168 stdout: 
+[ 2015-08-14 11:23:20.6159 9118/7f514c12e700 App/Implementation.cpp:303 ]: Could not spawn process for application /var/www/example_evma: An error occured while starting up the preloader.
+  Error ID: 7ef4a830
+  Error details saved to: /tmp/passenger-error-ERCpC1.html
+  Message from application: uninitialized constant AsyncSinatraApp::Application (NameError)
+  config.ru:37:in `block in <main>'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/builder.rb:55:in `instance_eval'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/rack-1.5.5/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-08-14 11:23:20.6208 9118/7f514dbb6700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 7ef4a830. Please see earlier logs for details about the error.
+
+
+[ 2015-08-14 11:23:23.5923 9118/7f514dbb6700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:23:23.5923 9125/7fa918b2c700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:23:23.5923 9125/7fa91a994740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:23:23.5923 9118/7f514fbfd740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:23:23.5923 9125/7fa918b2c700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:23:23.5923 9125/7fa918b2c700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:23:23.5925 9118/7f514dbb6700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:23:23.5925 9118/7f514d334700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:23:23.5925 9118/7f514dbb6700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-14 11:23:23.5925 9118/7f514d334700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:23:23.5925 9125/7fa91a994740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:23:23.5925 9118/7f514cab2700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:23:23.5926 9118/7f514cab2700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:23:23.5926 9118/7f512ffff700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:23:23.5926 9118/7f512ffff700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:23:23.5927 9118/7f512f7fe700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:23:23.5927 9118/7f512f7fe700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:23:23.5935 9118/7f514fbfd740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-08-14 11:33:15.4930 11897/7fa3edd68740 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-14 11:33:15.4957 11900/7f0131a01740 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-14 11:33:15.4958 11900/7f0131a01740 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-14 11:33:15.4972 11900/7f0131a01740 age/Cor/Main.cpp:707 ]: Passenger core online, PID 11900
+[ 2015-08-14 11:33:15.5009 11907/7ff27bdde740 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-14 11:33:15.5011 11907/7ff27bdde740 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 11907
+App 11950 stdout: 
+App 11966 stdout: 
+App 11966 stdout: {"REQUEST_URI"=>"/", "PATH_INFO"=>"/", "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "REQUEST_METHOD"=>"HEAD", "SERVER_NAME"=>"0.0.0.0", "SERVER_PORT"=>"80", "SERVER_SOFTWARE"=>"nginx/1.8.0 Phusion_Passenger/5.0.15", "SERVER_PROTOCOL"=>"HTTP/1.1", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_PORT"=>"53245", "PASSENGER_CONNECT_PASSWORD"=>"XnkS4t1F0sfCGPpX", "HTTP_HOST"=>"0.0.0.0", "rack.version"=>[1, 2], "rack.input"=>#<PhusionPassenger::Utils::TeeInput:0x000000016f1ca0 @len=0, @socket=#<PhusionPassenger::Utils::UnseekableSocket:0x000000016ed218 @socket=#<UNIXSocket:fd 12>, @simulate_eof=true>, @bytes_read=0, @tmp=#<StringIO:0x000000016f3fa0>>, "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>false, "rack.multiprocess"=>true, "rack.run_once"=>false, "rack.url_scheme"=>"http", "rack.hijack?"=>true, "rack.hijack"=>#<Proc:0x000000016f3a00@/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:81 (lambda)>, "HTTP_VERSION"=>"HTTP/1.1"}
+App 11966 stdout: {"REQUEST_URI"=>"/", "PATH_INFO"=>"/", "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "REQUEST_METHOD"=>"GET", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "SERVER_SOFTWARE"=>"nginx/1.8.0 Phusion_Passenger/5.0.15", "SERVER_PROTOCOL"=>"HTTP/1.1", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_PORT"=>"53254", "PASSENGER_CONNECT_PASSWORD"=>"XnkS4t1F0sfCGPpX", "HTTP_USER_AGENT"=>"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36", "HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "HTTP_HTTPS"=>"1", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, sdch", "HTTP_ACCEPT_LANGUAGE"=>"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4", "HTTP_COOKIE"=>"my_cookie=wrtueiennatcpvxbiktfsugkkzjqxlywtlcperqfvbqxnorwpu; rack.session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiRWIzNGE3OTMwZTUwYjA1OTkzZTBi%0AOWEyMzBmZWMxMzYzYTllYzBmNWNlZTEwZTczMTk4NThhMzI5MTQ4NjA0MmEG%0AOwBGSSIJY3NyZgY7AEZJIiVmOGRjOGI5OWYwOGJjZTRhNWIxNzAwNDE3OTNk%0AMzM0YwY7AEZJIg10cmFja2luZwY7AEZ7B0kiFEhUVFBfVVNFUl9BR0VOVAY7%0AAFRJIi1hMjZhNzNhNjk0ZGU3ODg0NWMwYWRhMWU2NjFiMTBiYzljN2FlN2My%0ABjsARkkiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsAVEkiLWRlZGUzZDhjODk5%0AZDU2YjIxYTU4NmQ0OWY4NDY2YmE5MGJkODgxMWUGOwBG%0A--00a5f0e384074dde112be1ef67289755b3e33daf", "HTTP_HOST"=>"localhost:3000", "rack.version"=>[1, 2], "rack.input"=>#<PhusionPassenger::Utils::TeeInput:0x000000016f7420 @len=0, @socket=#<PhusionPassenger::Utils::UnseekableSocket:0x000000016ed218 @socket=#<UNIXSocket:fd 12>, @simulate_eof=true>, @bytes_read=0, @tmp=#<StringIO:0x000000016f73a8>>, "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>false, "rack.multiprocess"=>true, "rack.run_once"=>false, "rack.url_scheme"=>"http", "rack.hijack?"=>true, "rack.hijack"=>#<Proc:0x000000016f7150@/home/igorp/.rvm/gems/ruby-2.2.2/gems/passenger-5.0.15/lib/phusion_passenger/rack/thread_handler_extension.rb:81 (lambda)>, "HTTP_VERSION"=>"HTTP/1.1"}
+
+[ 2015-08-14 11:33:50.1825 11900/7f012b7fe700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:33:50.1826 11900/7f0131a01740 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:33:50.1826 11900/7f0131a01740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 11966, application /var/www/example_evma/public (development)
+[ 2015-08-14 11:33:50.1827 11900/7f012affd700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-08-14 11:33:50.1827 11900/7f012affd700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-08-14 11:33:50.1827 11900/7f012a7fc700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-08-14 11:33:50.1828 11900/7f012a7fc700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-08-14 11:33:50.1828 11900/7f0129ffb700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-08-14 11:33:50.1828 11900/7f0129ffb700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-08-14 11:33:50.1829 11900/7f0129779700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:33:50.1830 11900/7f0129779700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-14 11:33:50.1831 11900/7f012b7fe700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-14 11:33:50.1832 11900/7f012b7fe700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-14 11:33:50.1832 11900/7f0131a01740 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 11966, application /var/www/example_evma/public (development)
+
+[ 2015-08-14 11:33:50.1833 11907/7ff279f76700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-14 11:33:50.1833 11907/7ff27bdde740 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-14 11:33:50.1833 11907/7ff279f76700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-14 11:33:50.1833 11907/7ff279f76700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-14 11:33:50.1835 11907/7ff27bdde740 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-14 11:33:50.2845 11900/7f0131a01740 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished

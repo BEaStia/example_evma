@@ -1,14 +1,14 @@
 require './app'
 require 'base64'
 require 'thin'
+Answer = Base64.decode64("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+ app = proc do |env|
+   body = [Answer]
+   p env
+   [200, { 'Content-Type' => 'image/gif' }, body]
+ end
 
-# app = proc do |env|
-#   body = [Answer]
-#   p env
-#   [200, { 'Content-Type' => 'image/gif' }, body]
-# end
-#
-# run app
+ run app
 #
 # Answer = Base64.decode64("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
 #
@@ -29,8 +29,9 @@ require 'thin'
 # end
 
 module AsyncApp
-  Answer = Base64.decode64("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+  
 end
-require './app/sinatra_async'
-AsyncSinatraApp.include AsyncApp
-run AsyncSinatraApp
+
+#require './app/sinatra_async'
+#AsyncSinatraApp.include AsyncApp
+#run AsyncSinatraApp
