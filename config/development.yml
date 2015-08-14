@@ -1,0 +1,18 @@
+---
+user: igorp
+group: igorp
+pid: tmp/pids/thin.pid
+timeout: 30
+wait: 30
+log: log/thin.log
+max_conns: 1024
+require: []
+environment: development
+max_persistent_conns: 512
+servers: 1
+threaded: true
+no-epoll: true
+daemonize: true
+socket: tmp/sockets/thin.sock
+chdir: /media/igorp/B40A4ECB0A4E89F6/Users/gopha/Documents/example_evma
+tag: emva

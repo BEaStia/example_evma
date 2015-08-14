@@ -1,37 +1,24 @@
-require './app'
+require 'rubygems'
+require 'rack/async'
+require 'eventmachine'
 require 'base64'
+require './lib/hack/lint'
+require 'rack/auth/digest/md5'
 require 'thin'
-Answer = Base64.decode64("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
- app = proc do |env|
-   body = [Answer]
-   p env
-   [200, { 'Content-Type' => 'image/gif' }, body]
- end
+require './app/record'
+require './app/RedisConnection'
+require './app/AsyncApp'
+require './app/AsyncAppWithRackResponse'
+require './app/DeferrableBody'
+Thin::Server.start('0.0.0.0', 3000) do
+  use Rack::CommonLogger
+  use Rack::Session::Cookie, :key => 'rack.session', :domain => '', :path => '/', :expire_after => 2592000, :secret => 'change_me', :old_secret => 'also_change_me'
 
- run app
-#
-# Answer = Base64.decode64("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
-#
-# use Rack::Session::Cookie, key => 'rack.session',
-#     :domain => 'localhost',
-#     :path => '/',
-#     :expire_after => 2592000,
-#     :secret => 'fuck_it_all'
-#
-# class App
-#   def answer
-#     Answer
-#   end
-#
-#   def callback env
-#     Rack::Session::Cookie.new(application, { :cookie => Rack::Session::Cookie::Identity.new })
-#   end
-# end
-
-module AsyncApp
-  
+  map '/s' do
+    run AsyncAppWithRackResponse.new
+  end
+  map '/' do
+    run AsyncApp.new
+  end
 end
 
-#require './app/sinatra_async'
-#AsyncSinatraApp.include AsyncApp
-#run AsyncSinatraApp
