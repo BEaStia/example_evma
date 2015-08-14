@@ -1,17 +1,19 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@github.com:BEaStia/example_evma.git'
+set :application, 'example_evma'
+set :repo_url, 'http://github.com/BEaStia/example_evma.git'
 set :ssh_options, { :forward_agent => true }
 
 set :repository_cache, "git_cache"
 set :deploy_via, :remote_cache
 
-set :deploy_to, '/usr/share/nginx/www/'
+set :deploy_to, '/usr/share/nginx/www/evma/'
 
 set :scm, :git
-
+set :user, "pi"
+set :password, "111"
+set :use_sudo, true
 # Default value for :format is :pretty
 # set :format, :pretty
 
@@ -40,6 +42,7 @@ namespace :deploy do
       # Here we can do anything such as:
       # within release_path do
       #   execute :rake, 'cache:clear'
+      execute :rake, 'redis:hello'
       # end
     end
   end
