@@ -28,6 +28,11 @@ class AppEntry
       key = arr[0]
       value = arr[1]
       if send(key.to_sym) != value
+        if key.to_sym == :node
+          query = DB.query_defer("INSERT INTO errors(sid, ip, old_node, new_node) VALUES('#{sid}', '#{ip}', '#{node}', '#{value}'")
+          query.callback{|result| }
+          query.errback{|result| }
+        end
         set_attribute key, value
         count += 1
       end
