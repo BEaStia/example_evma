@@ -1,0 +1,5 @@
+development:
+  dbname: evma
+  user: postgres
+  password: 111
+  host: localhost

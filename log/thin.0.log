@@ -1,0 +1,25 @@
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to igorp:igorp
+Using rack adapter
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+/home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:536:in `start_unix_server': no unix-domain acceptor (RuntimeError)
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:536:in `start_server'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:565:in `start_unix_domain_server'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/backends/unix_server.rb:19:in `connect'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `call'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/runner.rb:200:in `run_command'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/lib/thin/runner.rb:156:in `run!'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/gems/thin-1.6.3/bin/thin:6:in `<top (required)>'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/bin/thin:23:in `load'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/bin/thin:23:in `<main>'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+	from /home/igorp/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
