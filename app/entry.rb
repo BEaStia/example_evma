@@ -7,7 +7,7 @@ class AppEntry
     super(*vars)
   end
 
-  attr_accessor :id, :sid, :ip, :node, :browser, :browser_version, :os, :platform, :mobile, :bot, :country
+  attr_accessor :id, :sid, :ip, :node, :browser, :browser_version, :os, :platform, :mobile, :bot, :country, :first_visit, :last_visit
 
   def self.attributes
     @attributes
@@ -47,9 +47,9 @@ class AppEntry
 
   def save
     if id.nil?
-      query = "INSERT INTO entries (sid, ip, node, browser, browser_version, os, platform, mobile, bot, country) VALUES ('#{sid}', '#{ip}', '#{node}', '#{browser}', '#{browser_version}', '#{os}', '#{platform}', '#{mobile}', '#{bot}', '#{country}')"
+      query = "INSERT INTO entries (sid, ip, node, browser, browser_version, os, platform, mobile, bot, country, first_visit, last_visit) VALUES ('#{sid}', '#{ip}', '#{node}', '#{browser}', '#{browser_version}', '#{os}', '#{platform}', '#{mobile}', '#{bot}', '#{country}', '#{Time.now}', '#{Time.now}')"
     else
-      query = "UPDATE entries SET sid = '#{sid}', ip = '#{ip}', node = '#{node}', browser = '#{browser}', browser_version = '#{browser_version}', os = '#{os}', platform = '#{platform}', mobile = '#{mobile}', bot = '#{bot}', country = '#{country}' WHERE id = #{id}"
+      query = "UPDATE entries SET sid = '#{sid}', ip = '#{ip}', node = '#{node}', browser = '#{browser}', browser_version = '#{browser_version}', os = '#{os}', platform = '#{platform}', mobile = '#{mobile}', bot = '#{bot}', country = '#{country}', last_visit = '#{Time.now}' WHERE id = #{id}"
     end
     DB.query_defer(query)
   end

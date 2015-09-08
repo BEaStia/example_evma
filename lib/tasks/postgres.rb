@@ -14,7 +14,9 @@ namespace :db do
       platform varchar(50),
       country varchar(5),
       ip inet,
-      node inet)')
+      node inet,
+      first_visit timestamp,
+      last_visit timestamp)')
 
     DB.query("create table errors(
         id serial PRIMARY KEY,
